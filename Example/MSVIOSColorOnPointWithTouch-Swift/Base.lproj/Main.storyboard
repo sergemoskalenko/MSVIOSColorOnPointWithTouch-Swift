@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="MSVViewController" customModule="MSVIOSColorOnPointWithTouch_Swift_Example" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPj-9x-TT7">
+                                <rect key="frame" x="0.0" y="57" width="375" height="150"/>
+                                <color key="backgroundColor" red="0.98862068179999996" green="1" blue="0.7369099321" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Dki-PM-EPB"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Color at touch point" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTO-zT-Hrs">
+                                <rect key="frame" x="16" y="28" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Touch any color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOX-OI-5Vq">
+                                <rect key="frame" x="16" y="215" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xEt-G5-2jZ" customClass="MSVIOSColorOnPointWithTouchView" customModule="MSVIOSColorOnPointWithTouch_Swift">
+                                <rect key="frame" x="0.0" y="244" width="375" height="423"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="colors.png" translatesAutoresizingMaskIntoConstraints="NO" id="zAg-QW-wWN">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="423"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="zAg-QW-wWN" secondAttribute="bottom" id="azj-62-3ug"/>
+                                    <constraint firstItem="zAg-QW-wWN" firstAttribute="top" secondItem="xEt-G5-2jZ" secondAttribute="top" id="dz7-pY-i75"/>
+                                    <constraint firstAttribute="trailing" secondItem="zAg-QW-wWN" secondAttribute="trailing" id="mfZ-Kb-nTy"/>
+                                    <constraint firstItem="zAg-QW-wWN" firstAttribute="leading" secondItem="xEt-G5-2jZ" secondAttribute="leading" id="pIH-Ug-grs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="XPj-9x-TT7" secondAttribute="trailing" id="7BR-Cm-OYL"/>
+                            <constraint firstItem="xEt-G5-2jZ" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="Jw9-BH-K0A"/>
+                            <constraint firstItem="XPj-9x-TT7" firstAttribute="top" secondItem="DTO-zT-Hrs" secondAttribute="bottom" constant="8" id="SWn-4a-Hyd"/>
+                            <constraint firstAttribute="trailing" secondItem="uOX-OI-5Vq" secondAttribute="trailing" constant="16" id="af6-OZ-zDa"/>
+                            <constraint firstItem="uOX-OI-5Vq" firstAttribute="top" secondItem="XPj-9x-TT7" secondAttribute="bottom" constant="8" id="c5k-7q-EAg"/>
+                            <constraint firstItem="DTO-zT-Hrs" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="16" id="dvh-BU-HBt"/>
+                            <constraint firstItem="xEt-G5-2jZ" firstAttribute="top" secondItem="uOX-OI-5Vq" secondAttribute="bottom" constant="8" id="fxv-BB-mm6"/>
+                            <constraint firstItem="XPj-9x-TT7" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="iXP-Il-TuP"/>
+                            <constraint firstItem="uOX-OI-5Vq" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="16" id="jJt-Zd-BuU"/>
+                            <constraint firstAttribute="trailing" secondItem="DTO-zT-Hrs" secondAttribute="trailing" constant="16" id="nx5-Kl-x3b"/>
+                            <constraint firstItem="DTO-zT-Hrs" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="8" id="sRc-dU-9XI"/>
+                            <constraint firstAttribute="trailing" secondItem="xEt-G5-2jZ" secondAttribute="trailing" id="tRy-jl-k0a"/>
+                            <constraint firstAttribute="bottom" secondItem="xEt-G5-2jZ" secondAttribute="bottom" id="vjD-rt-vP3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="displayView" destination="XPj-9x-TT7" id="crn-5K-HLq"/>
+                        <outlet property="imageView" destination="zAg-QW-wWN" id="T6X-hO-Ybe"/>
+                        <outlet property="viewForTouch" destination="xEt-G5-2jZ" id="5G3-He-SD2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="colors.png" width="506" height="308"/>
+    </resources>
+</document>

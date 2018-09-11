@@ -1,0 +1,22 @@
+{
+  "name": "MSVIOSColorOnPointWithTouch-Swift",
+  "version": "0.1.0",
+  "summary": "A short description of MSVIOSColorOnPointWithTouch-Swift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Serge Moskalenko/MSVIOSColorOnPointWithTouch-Swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Serge Moskalenko": "serhii.moskalenko@ionidea.com"
+  },
+  "source": {
+    "git": "https://github.com/Serge Moskalenko/MSVIOSColorOnPointWithTouch-Swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MSVIOSColorOnPointWithTouch-Swift/Classes/**/*"
+}

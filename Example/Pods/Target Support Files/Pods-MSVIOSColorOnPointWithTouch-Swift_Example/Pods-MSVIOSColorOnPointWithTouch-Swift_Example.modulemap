@@ -1,0 +1,6 @@
+framework module Pods_MSVIOSColorOnPointWithTouch_Swift_Example {
+  umbrella header "Pods-MSVIOSColorOnPointWithTouch-Swift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

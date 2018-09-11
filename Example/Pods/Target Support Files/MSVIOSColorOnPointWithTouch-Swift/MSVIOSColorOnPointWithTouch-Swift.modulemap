@@ -1,0 +1,6 @@
+framework module MSVIOSColorOnPointWithTouch_Swift {
+  umbrella header "MSVIOSColorOnPointWithTouch-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MSVIOSColorOnPointWithTouch-Swift_Example' do
+  pod 'MSVIOSColorOnPointWithTouch-Swift', :path => '../'
+
+  target 'MSVIOSColorOnPointWithTouch-Swift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - MSVIOSColorOnPointWithTouch-Swift (0.1.0)
+
+DEPENDENCIES:
+  - MSVIOSColorOnPointWithTouch-Swift (from `../`)
+
+EXTERNAL SOURCES:
+  MSVIOSColorOnPointWithTouch-Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSVIOSColorOnPointWithTouch-Swift: 84aaa56e2f55769646c973ed71df26e397d8bd28
+
+PODFILE CHECKSUM: 66e88fb27ee8da6678b0a642bad551c541f7feff
+
+COCOAPODS: 1.5.3
