@@ -25,7 +25,7 @@ MSVIOSColorOnPointWithTouch - color on touch of view, image from view, color of 
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Serge Moskalenko' => 'camopu-ympo, http://camopu.rhorse.ru/ios' }
-  s.source           = { :git => 'https://github.com/sergemoskalenkoo/MSVIOSColorOnPointWithTouch-Swift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sergemoskalenko/MSVIOSColorOnPointWithTouch-Swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/sergemoskalenkoo>'
 
   s.ios.deployment_target = '8.0'
