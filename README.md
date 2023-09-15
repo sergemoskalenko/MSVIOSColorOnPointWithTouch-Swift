@@ -7,7 +7,7 @@
 
 ## Example
 
-Online Web Demo: https://goo.gl/u6BKL9
+<!-- Online Web Demo: https://goo.gl/u6BKL9 -->
 
 [<img src="https://github.com/sergemoskalenko/MSVIOSColorOnPointWithTouch/blob/master/img/color4touch.gif" alt="Screen" width="400"/>](https://goo.gl/u6BKL9)
 
@@ -26,7 +26,7 @@ pod 'MSVIOSColorOnPointWithTouch-Swift'
 
 ## Author
 
-Serge Moskalenko, camopu-ympo, http://camopu.rhorse.ru/ios
+Serge Moskalenko, camopu-ympo, https://github.com/sergemoskalenko
 
 ## Versions
 Objective-C version:
