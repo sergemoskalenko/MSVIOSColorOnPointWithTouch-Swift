@@ -38,4 +38,5 @@ https://github.com/sergemoskalenko/MSVIOSColorOnPointWithTouch-Swift
 
 ## License
 
-MSVIOSColorOnPointWithTouch-Swift is available under the MIT license. See the LICENSE file for more info.
+MSVIOSColorOnPointWithTouch-Swift is available under the MIT license. 
+See the LICENSE file for more info.
